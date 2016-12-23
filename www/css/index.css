@@ -5,15 +5,16 @@ body {
 }
 
 .menu{
-    display:inline;
+    display:inline-block;
     text-align:center;
     color:rgb(256,256,256);
-    font-size:18px;
+    font-size:24px;
+    width:49%;
+    height:23%;
 }
 
 a{
-    width:49%;
-    height:23%;
+
 }
 
 #hospitais{
