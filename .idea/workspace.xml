@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="36" column="98" lean-forward="false" selection-start-line="36" selection-start-column="98" selection-end-line="36" selection-end-column="98" />
+              <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -320,7 +320,7 @@
       <workItem from="1482511896505" duration="15000" />
       <workItem from="1482511961375" duration="29000" />
       <workItem from="1482518178196" duration="506000" />
-      <workItem from="1482518730565" duration="3138000" />
+      <workItem from="1482518730565" duration="3277000" />
     </task>
     <task id="LOCAL-00001" summary="v0.1">
       <created>1482494623618</created>
@@ -574,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482521758462</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="v0.1">
+      <created>1482521910943</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1482521910943</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20253000" />
+    <option name="totallyTimeSpent" value="20392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,7 +1033,7 @@
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="36" column="98" lean-forward="false" selection-start-line="36" selection-start-column="98" selection-end-line="36" selection-end-column="98" />
+          <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
           <folding />
         </state>
       </provider>

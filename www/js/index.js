@@ -34,7 +34,7 @@ function pronto(){
                 }
                 return undefined;
             }
-            document.getElementById("conteudoLista").innerHTML = JSON.stringify("visitario.json");
+            document.getElementById("conteudoLista").innerHTML = JSON.stringify(visitario.json);
         }
     }
 }
