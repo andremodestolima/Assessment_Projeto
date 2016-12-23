@@ -7,58 +7,50 @@ body {
 .menu{
     display:inline-block;
     text-align:center;
+    vertical-align: middle;
     color:rgb(256,256,256);
-    font-size:24px;
-    width:49%;
-    height:23%;
-}
-
-a{
-
+    font-size:26px;
+    width:50%;
+    height:25%;
 }
 
 #hospitais{
     background-color: rgb(41, 229, 152);
+    border:solid;
+    border:5px;
 }
 
 #delegacias{
     background-color: rgb(246, 168, 26);
-    width:49%;
-    height:23%;
+    border-color: rgb(224, 151, 25);
 }
 
 #pontosTuristicos{
     background-color: rgb(88, 194, 229);
-    width:49%;
-    height:23%;
+    border-color: rgb(83, 178, 207);
 }
 
 #praias{
     background-color: rgb(242, 231, 88);
-    width:49%;
-    height:23%;
+    border-color: rgb(219, 208, 81);
 }
 
 #ondeComer{
     background-color: rgb(193, 2, 248);
-    width:49%;
-    height:23%;
+    border-color: rgb(175, 2, 227);
 }
 
 #ondeDormir{
     background-color: rgb(229, 39, 137);
-    width:49%;
-    height:23%;
+    border-color: rgb(204, 37, 123);
 }
 
 #eventos{
     background-color: rgb(0, 229, 220);
-    width:49%;
-    height:23%;
+    border-color: rgb(0, 204, 194);
 }
 
 #banheiros{
     background-color: rgb(244, 170, 0);
-    width:49%;
-    height:23%;
+    border-color: rgb(222, 152, 0);
 }
