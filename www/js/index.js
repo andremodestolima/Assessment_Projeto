@@ -18,7 +18,14 @@ function pronto(){
 
     function ratchetPronto(){
         if (document.location.href.substring(document.location.href.lastIndexOf('/')) == '/index.html'){
-
+            document.getElementById("hospitais").addEventListener("click", function(){novaPagina("hospitais")}, false);
+            document.getElementById("delegacias").addEventListener("click", function(){novaPagina("delegacias")}, false);
+            document.getElementById("pontosTuristicos").addEventListener("click", function(){novaPagina("pontosTuristicos")}, false);
+            document.getElementById("praias").addEventListener("click", function(){novaPagina("praias")}, false);
+            document.getElementById("ondeComer").addEventListener("click", function(){novaPagina("ondeComer")}, false);
+            document.getElementById("ondeDormir").addEventListener("click", function(){novaPagina("ondeDormir")}, false);
+            document.getElementById("eventos").addEventListener("click", function(){novaPagina("eventos")}, false);
+            document.getElementById("banheiros").addEventListener("click", function(){novaPagina("banheiros")}, false);
         }
         if (document.location.href.substring(document.location.href.lastIndexOf('/')) == '/lista.html'){
             alert(paginaAtual);
