@@ -49,14 +49,14 @@ function pronto(){
                 infos += atual[i].foto;
                 infos += "' height='110px' width='110px' ><div class='media-body'>";
                 infos += atual[i].nome;
-                if(atual[i].bairro){ infos += "<p>Bairro: " + atual[i].bairro +"</p>" }
-                if(atual[i].endereco){ infos += "<p>Endereco: " + atual[i].endereco +"</p>" }
-                if(atual[i].regiao){ infos += "<p>Região: " + atual[i].regiao +"</p>" }
+                if(atual[i].bairro){ infos += "<p><b>Bairro:</b> " + atual[i].bairro +"</p>" }
+                if(atual[i].endereco){ infos += "<p><b>Endereco:</b> " + atual[i].endereco +"</p>" }
+                if(atual[i].regiao){ infos += "<p><b>Região:</b> " + atual[i].regiao +"</p>" }
                 if(atual[i].mapa){ infos += "<p><a href=" + atual[i].mapa + "> Veja onde fica! </a></p>"}
-                if(atual[i].funcionamento){ infos += "<p>Horário: " + atual[i].funcionamento +"</p>" }
-                if(atual[i].servico){ infos += "<p>Serviço: " + atual[i].servico +"</p>" }
-                if(atual[i].custo){ infos += "<p>Custo: " + atual[i].custo +"</p>" }
-                if(atual[i].telefone){ infos += "<p>Telefone: " + atual[i].telefone +"</p>" }
+                if(atual[i].funcionamento){ infos += "<p><b>Horário:</b> " + atual[i].funcionamento +"</p>" }
+                if(atual[i].servico){ infos += "<p><b>Serviço:</b> " + atual[i].servico +"</p>" }
+                if(atual[i].custo){ infos += "<p><b>Custo:</b> " + atual[i].custo +"</p>" }
+                if(atual[i].telefone){ infos += "<p><b>Telefone:</b> " + atual[i].telefone +"</p>" }
                 if(atual[i].url){ infos += "<p><a href=" + atual[i].url + ">" + atual[i].site + "</a></p>"}
                 infos += "</div></li>";
             }
