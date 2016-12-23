@@ -3,6 +3,11 @@ function pronto(){
     window.PUSH = PUSH;
     var paginaAtual = "";
     var dadosJSON;
+
+    jQuery.getJSON("visitario.json", function(data){
+        dadosJSON = data;
+    });
+
     document.getElementById("hospitais").addEventListener("click", function(){novaPagina("hospitais")}, false);
     document.getElementById("delegacias").addEventListener("click", function(){novaPagina("delegacias")}, false);
     document.getElementById("pontosTuristicos").addEventListener("click", function(){novaPagina("pontosTuristicos")}, false);
@@ -29,10 +34,27 @@ function pronto(){
             document.getElementById("banheiros").addEventListener("click", function(){novaPagina("banheiros")}, false);
         }
         if (document.location.href.substring(document.location.href.lastIndexOf('/')) == '/lista.html'){
-            jQuery.getJSON("visitario.json", function(data){
-                dadosJSON = data;
-                alert(dadosJSON.hospitais);
-            });
+            var infos = "<ul class='table-view'>";
+            var atual;
+            if (paginaAtual == "hospitais"){ atual = dadosJSON.hospitais }
+            else if (paginaAtual == "delegacias"){ atual = dadosJSON.delegacias }
+            else if (paginaAtual == "pontosTuristicos"){ atual = dadosJSON.pontosTuristicos }
+            else if (paginaAtual == "praias"){ atual = dadosJSON.praias }
+            else if (paginaAtual == "ondeComer"){ atual = dadosJSON.ondeComer }
+            else if (paginaAtual == "ondeDormir"){ atual = dadosJSON.ondeDormir }
+            else if (paginaAtual == "eventos"){ atual = dadosJSON.eventos }
+            else if (paginaAtual == "banheiros"){ atual = dadosJSON.banheiros }
+            for(i=0; i<atual.length; i++ ) {
+                infos += "<li class='table-view-cell media'><a class='navigate-right'><img class='media-object pull-left' src='";
+                infos += atual[i].foto;
+                infos += "'><div class='media-body'>";
+                infos += atual[i].nome;
+                infos += "<p>";
+                infos += "Lorem ipsum dolor sit";
+                infos += "</p></div></a></li>";
+            }
+            infos += "</ul>";
+            document.getElementById("conteudoLista").innerHTML = infos;
         }
     }
 }
