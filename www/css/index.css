@@ -4,14 +4,18 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
 }
 
+.content{
+    margin:auto;
+}
+
 .menu{
     display:inline-block;
     text-align:center;
     vertical-align: middle;
     color:rgb(256,256,256);
     font-size:26px;
-    width:50%;
-    height:25%;
+    width:49%;
+    height:24%;
 }
 
 #hospitais{
