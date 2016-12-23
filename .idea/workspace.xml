@@ -57,8 +57,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+            <state relative-caret-position="284">
+              <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -320,7 +320,7 @@
       <workItem from="1482511896505" duration="15000" />
       <workItem from="1482511961375" duration="29000" />
       <workItem from="1482518178196" duration="506000" />
-      <workItem from="1482518730565" duration="10531000" />
+      <workItem from="1482518730565" duration="10858000" />
     </task>
     <task id="LOCAL-00001" summary="v0.1">
       <created>1482494623618</created>
@@ -637,11 +637,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482529533304</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="v0.1">
+      <created>1482529633003</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1482529633003</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27646000" />
+    <option name="totallyTimeSpent" value="27973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1088,8 +1095,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        <state relative-caret-position="284">
+          <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
           <folding />
         </state>
       </provider>

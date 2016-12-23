@@ -47,7 +47,7 @@ function pronto(){
             for(i=0; i<atual.length; i++ ) {
                 infos += "<li class='table-view-cell media'><img class='media-object pull-left imagemLista' src='";
                 infos += atual[i].foto;
-                infos += "' height='200px' width='200px' ><div class='media-body'>";
+                infos += "' height='120px' width='120px' ><div class='media-body'>";
                 infos += atual[i].nome;
                 if(atual[i].bairro){ infos += "<p>Bairro: " + atual[i].bairro +"</p>" }
                 if(atual[i].endereco){ infos += "<p>Endereco: " + atual[i].endereco +"</p>" }
