@@ -9,6 +9,9 @@ body {
     text-align:center;
     color:rgb(256,256,256);
     font-size:18px;
+}
+
+a{
     width:49%;
     height:23%;
 }
