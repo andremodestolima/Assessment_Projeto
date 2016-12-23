@@ -13,7 +13,7 @@ function pronto(){
 
     function novaPagina(qual){
         paginaAtual = qual;
-        alert(paginaAtual);
+        window.PUSH({url: 'lista.html', transition: 'slide-in'});
     }
 
     function ratchetPronto(){
