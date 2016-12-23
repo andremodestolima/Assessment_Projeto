@@ -1,4 +1,4 @@
-pronto(){
+function pronto(){
 
 
 
@@ -9,6 +9,6 @@ pronto(){
 
 
 
-}
+};
 
 document.addEventListener('deviceready', pronto, false);
