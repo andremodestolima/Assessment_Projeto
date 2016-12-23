@@ -9,12 +9,12 @@ body {
     text-align:center;
     color:rgb(256,256,256);
     font-size:18px;
+    width:49%;
+    height:23%;
 }
 
 #hospitais{
     background-color: rgb(41, 229, 152);
-    width:49%;
-    height:23%;
 }
 
 #delegacias{
