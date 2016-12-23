@@ -4,16 +4,12 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
 }
 
-#links{
-    margin:auto;
-}
-
 .menu{
     display:inline-block;
     text-align:center;
-    vertical-align: middle;
     color:rgb(256,256,256);
     font-size:26px;
+    margin-top:10%;
     width:49%;
     height:24%;
     border:solid;
