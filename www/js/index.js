@@ -9,6 +9,10 @@ function pronto(){
         }
 
 
+
+        document.getElementById("botaoSair").addEventListener("click", fecharPrograma, false);
+
+
     }
 }
 
