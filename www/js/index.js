@@ -47,13 +47,13 @@ function pronto(){
             for(i=0; i<atual.length; i++ ) {
                 infos += "<li class='table-view-cell media'><img class='media-object pull-left imagemLista' src='";
                 infos += atual[i].foto;
-                infos += "' height='120px' width='120px' ><div class='media-body'>";
+                infos += "' height='110px' width='110px' ><div class='media-body'>";
                 infos += atual[i].nome;
                 if(atual[i].bairro){ infos += "<p>Bairro: " + atual[i].bairro +"</p>" }
                 if(atual[i].endereco){ infos += "<p>Endereco: " + atual[i].endereco +"</p>" }
                 if(atual[i].regiao){ infos += "<p>Região: " + atual[i].regiao +"</p>" }
                 if(atual[i].mapa){ infos += "<p><a href=" + atual[i].mapa + "> Veja onde fica! </a></p>"}
-                if(atual[i].funcionamento){ infos += "<p>Funcionamento: " + atual[i].funcionamento +"</p>" }
+                if(atual[i].funcionamento){ infos += "<p>Horário: " + atual[i].funcionamento +"</p>" }
                 if(atual[i].servico){ infos += "<p>Serviço: " + atual[i].servico +"</p>" }
                 if(atual[i].custo){ infos += "<p>Custo: " + atual[i].custo +"</p>" }
                 if(atual[i].telefone){ infos += "<p>Telefone: " + atual[i].telefone +"</p>" }
