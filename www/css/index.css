@@ -4,7 +4,7 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
 }
 
-.content{
+#links{
     margin:auto;
 }
 
@@ -16,12 +16,13 @@ body {
     font-size:26px;
     width:49%;
     height:24%;
+    border:solid;
+    border:6px;
 }
 
 #hospitais{
     background-color: rgb(41, 229, 152);
-    border:solid;
-    border:5px;
+    border-color: rgb(37, 204, 134);
 }
 
 #delegacias{
