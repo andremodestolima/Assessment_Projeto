@@ -1,14 +1,18 @@
 function pronto(){
     window.addEventListener('push', ratchetPronto);
     var paginaAtual = "";
-    document.getElementById("hospitais").addEventListener("click", function(){paginaAtual = "hospitais"}, false);
-    document.getElementById("delegacias").addEventListener("click", function(){paginaAtual ="delegacias"}, false);
-    document.getElementById("pontosTuristicos").addEventListener("click", function(){paginaAtual ="pontosTuristicos"}, false);
-    document.getElementById("praias").addEventListener("click", function(){paginaAtual ="praias"}, false);
-    document.getElementById("ondeComer").addEventListener("click", function(){paginaAtual ="ondeComer"}, false);
-    document.getElementById("ondeDormir").addEventListener("click", function(){paginaAtual ="ondeDormir"}, false);
-    document.getElementById("eventos").addEventListener("click", function(){paginaAtual ="eventos"}, false);
-    document.getElementById("banheiros").addEventListener("click", function(){paginaAtual ="banheiros"}, false);
+    document.getElementById("hospitais").addEventListener("click", function(){novaPagina("hospitais")}, false);
+    document.getElementById("delegacias").addEventListener("click", function(){novaPagina("delegacias")}, false);
+    document.getElementById("pontosTuristicos").addEventListener("click", function(){novaPagina("pontosTuristicos")}, false);
+    document.getElementById("praias").addEventListener("click", function(){novaPagina("praias")}, false);
+    document.getElementById("ondeComer").addEventListener("click", function(){novaPagina("ondeComer")}, false);
+    document.getElementById("ondeDormir").addEventListener("click", function(){novaPagina("ondeDormir")}, false);
+    document.getElementById("eventos").addEventListener("click", function(){novaPagina("eventos")}, false);
+    document.getElementById("banheiros").addEventListener("click", function(){novaPagina("banheiros")}, false);
+
+    function novaPagina(qual){
+        paginaAtual = qual;
+    }
 
     function ratchetPronto(){
         if (document.location.href.substring(document.location.href.lastIndexOf('/')) == '/index.html'){
