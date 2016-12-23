@@ -10,7 +10,7 @@ function pronto(){
 
 
 
-        document.getElementById("botaoSair").addEventListener("click", fecharPrograma, false);
+        document.getElementById("hospitais").addEventListener("click", irHospitais, false);
 
 
     }

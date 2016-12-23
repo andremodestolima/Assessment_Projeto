@@ -11,9 +11,9 @@ body {
     font-size:26px;
     width:49%;
     height:24%;
-    border:solid;
+    border-style:solid;
     border:6px;
-    vertical-align:middle;
+    padding: 15% 0% 0% 0%;
 }
 
 #hospitais{
