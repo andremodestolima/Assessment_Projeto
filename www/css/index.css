@@ -5,42 +5,56 @@ body {
 }
 
 .menu{
-    width:49%;
-    height:23%;
     display:inline;
     text-align:center;
     color:rgb(256,256,256);
-    font-size:13px;
+    font-size:18px;
 }
 
 #hospitais{
     background-color: rgb(41, 229, 152);
+    width:49%;
+    height:23%;
 }
 
 #delegacias{
     background-color: rgb(246, 168, 26);
+    width:49%;
+    height:23%;
 }
 
 #pontosTuristicos{
     background-color: rgb(88, 194, 229);
+    width:49%;
+    height:23%;
 }
 
 #praias{
     background-color: rgb(242, 231, 88);
+    width:49%;
+    height:23%;
 }
 
 #ondeComer{
     background-color: rgb(193, 2, 248);
+    width:49%;
+    height:23%;
 }
 
 #ondeDormir{
     background-color: rgb(229, 39, 137);
+    width:49%;
+    height:23%;
 }
 
 #eventos{
     background-color: rgb(0, 229, 220);
+    width:49%;
+    height:23%;
 }
 
 #banheiros{
     background-color: rgb(244, 170, 0);
+    width:49%;
+    height:23%;
 }
