@@ -1,5 +1,6 @@
 function pronto(){
     window.addEventListener('push', ratchetPronto);
+    window.PUSH = PUSH;
     var paginaAtual = "";
     document.getElementById("hospitais").addEventListener("click", function(){novaPagina("hospitais")}, false);
     document.getElementById("delegacias").addEventListener("click", function(){novaPagina("delegacias")}, false);
@@ -12,6 +13,7 @@ function pronto(){
 
     function novaPagina(qual){
         paginaAtual = qual;
+        alert(paginaAtual);
     }
 
     function ratchetPronto(){
