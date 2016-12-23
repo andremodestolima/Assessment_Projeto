@@ -45,9 +45,9 @@ function pronto(){
             else if (paginaAtual == "eventos"){ atual = dadosJSON.eventos }
             else if (paginaAtual == "banheiros"){ atual = dadosJSON.banheiros }
             for(i=0; i<atual.length; i++ ) {
-                infos += "<li class='table-view-cell media'><a class='navigate-right'><img class='media-object pull-left' src='";
+                infos += "<li class='table-view-cell media'><a class='navigate-right'><img class='media-object pull-left imagemLista' src='";
                 infos += atual[i].foto;
-                infos += "'><div class='media-body'>";
+                infos += "' ><div class='media-body'>";
                 infos += atual[i].nome;
                 infos += "<p>";
                 infos += "Lorem ipsum dolor sit";
