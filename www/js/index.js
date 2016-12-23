@@ -47,11 +47,17 @@ function pronto(){
             for(i=0; i<atual.length; i++ ) {
                 infos += "<li class='table-view-cell media'><a class='navigate-right'><img class='media-object pull-left imagemLista' src='";
                 infos += atual[i].foto;
-                infos += "' ><div class='media-body'>";
+                infos += "' height="30" width="30" ><div class='media-body'>";
                 infos += atual[i].nome;
-                infos += "<p>";
-                infos += "Lorem ipsum dolor sit";
-                infos += "</p></div></a></li>";
+                if(atual[i].bairro){ infos += "<p>" + atual[i].bairro +"</p>" }
+                if(atual[i].endereco){ infos += "<p>" + atual[i].endereco +"</p>" }
+                if(atual[i].regiao){ infos += "<p>" + atual[i].regiao +"</p>" }
+                if(atual[i].funcionamento){ infos += "<p>" + atual[i].funcionamento +"</p>" }
+                if(atual[i].servico){ infos += "<p>" + atual[i].servico +"</p>" }
+                if(atual[i].custo){ infos += "<p>" + atual[i].custo +"</p>" }
+                if(atual[i].telefone){ infos += "<p>" + atual[i].telefone +"</p>" }
+                if(atual[i].url){ infos += "<p><a href=" + atual[i].url + ">" + atual[i].site + "</a></p>"}
+                infos += "</div></a></li>";
             }
             infos += "</ul>";
             document.getElementById("conteudoLista").innerHTML = infos;
