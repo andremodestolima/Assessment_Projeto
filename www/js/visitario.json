@@ -1,5 +1,5 @@
 {
-  "hospital":[
+  "hospitais":[
     {
       "nome": "Hospital Souza Aguiar",
       "foto": "https://brunovitorprado.github.io/visitario/img/souza_aguiar.png",
@@ -118,7 +118,7 @@
       "mapa": "https://goo.gl/maps/4wWzaGZcp3x"
     }
   ],
-  "pontos": [
+  "pontosTuristicos": [
     {
       "nome": "Bondinho Pão de Açúcar",
       "foto": "https://brunovitorprado.github.io/visitario/img/pao_de_acucar.jpg",
@@ -204,7 +204,7 @@
       "site": "Ir ao site "
     }
   ],
-  "comer": [
+  "ondeComer": [
     {
       "nome": "Cataroca",
       "foto": "https://brunovitorprado.github.io/visitario/img/cataroca.PNG",
@@ -254,7 +254,7 @@
       "site": "Ir ao site "
     }
   ],
-  "dormir": [
+  "ondeDormir": [
     {
       "nome": "Hotel Galicia",
       "foto": "https://brunovitorprado.github.io/visitario/img/galicia.png",
