@@ -58,7 +58,7 @@ function pronto(){
                 if(atual[i].custo){ infos += "<p>Custo: " + atual[i].custo +"</p>" }
                 if(atual[i].telefone){ infos += "<p>Telefone: " + atual[i].telefone +"</p>" }
                 if(atual[i].url){ infos += "<p><a href=" + atual[i].url + ">" + atual[i].site + "</a></p>"}
-                infos += "</div></a></li>";
+                infos += "</div></li>";
             }
             infos += "</ul>";
             document.getElementById("conteudoLista").innerHTML = infos;
