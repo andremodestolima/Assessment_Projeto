@@ -2,6 +2,7 @@ function pronto(){
     window.addEventListener('push', ratchetPronto);
     window.PUSH = PUSH;
     var paginaAtual = "";
+    var dadosJSON;
     document.getElementById("hospitais").addEventListener("click", function(){novaPagina("hospitais")}, false);
     document.getElementById("delegacias").addEventListener("click", function(){novaPagina("delegacias")}, false);
     document.getElementById("pontosTuristicos").addEventListener("click", function(){novaPagina("pontosTuristicos")}, false);
@@ -28,13 +29,10 @@ function pronto(){
             document.getElementById("banheiros").addEventListener("click", function(){novaPagina("banheiros")}, false);
         }
         if (document.location.href.substring(document.location.href.lastIndexOf('/')) == '/lista.html'){
-            function filtrar(key, value){
-                if (key == "hospitais"){
-                    return key;
-                }
-                return undefined;
-            }
-            document.getElementById("conteudoLista").innerHTML = JSON.stringify(visitario.json);
+            jQuery.getJSON("visitario.json", function(data){
+                dadosJSON = data;
+                alert(dadosJSON.hospitais);
+            });
         }
     }
 }
